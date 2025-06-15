@@ -1,0 +1,113 @@
+[{
+  "_id": "nivel_001",
+  "nombre": "basico",
+  "costo": [
+    {
+      "mensual": 50000,
+      "anual": 500000
+    }
+  ],
+  "id_juegos_disponibles": "juego_002"
+},
+{
+  "_id": "nivel_002",
+  "nombre": "silver",
+  "costo": [
+    {
+      "mensual": 70000,
+      "anual": 700000
+    }
+  ],
+  "id_juegos_disponibles": "juego_004"
+},
+{
+  "_id": "nivel_003",
+  "nombre": "gold",
+  "costo": [
+    {
+      "mensual": 80000,
+      "anual": 800000
+    }
+  ],
+  "id_juegos_disponibles": "juego_003"
+},
+{
+  "_id": "nivel_004",
+  "nombre": "platinum",
+  "costo": [
+    {
+      "mensual": 100000,
+      "anual": 1000000
+    }
+  ],
+  "id_juegos_disponibles": "juego_005"
+},
+{
+  "_id": "nivel_005",
+  "nombre": "titanium",
+  "costo": [
+    {
+      "mensual": 110000,
+      "anual": 1100000
+    }
+  ],
+  "id_juegos_disponibles": "juego_010"
+},
+{
+  "_id": "nivel_006",
+  "nombre": "diamond",
+  "costo": [
+    {
+      "mensual": 120000,
+      "anual": 1200000
+    }
+  ],
+  "id_juegos_disponibles": "juego_009"
+},
+{
+  "_id": "nivel_007",
+  "nombre": "elite",
+  "costo": [
+    {
+      "mensual": 130000,
+      "anual": 1300000
+    }
+  ],
+  "id_juegos_disponibles": "juego_011"
+},
+{
+  "_id": "nivel_008",
+  "nombre": "VIP",
+  "costo": [
+    {
+      "mensual": 2000000,
+      "anual": 2000000
+    }
+  ],
+  "id_juegos_disponibles": "juego_001"
+},
+{
+  "_id": "nivel_009",
+  "nombre": "High Roller",
+  "costo": [
+    {
+      "mensual": 5000000,
+      "anual": 5000000
+    }
+  ],
+  "id_juegos_disponibles": "juego_006"
+},
+{
+  "_id": "nivel_010",
+  "nombre": "membresia anual",
+  "costo": [
+    {
+      "mensual": null,
+      "anual": 400000
+    }
+  ],
+  "id_juegos_disponibles": [
+    "juego_007",
+    "juego_008"
+  ]
+}]

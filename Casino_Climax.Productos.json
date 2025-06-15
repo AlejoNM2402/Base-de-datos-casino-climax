@@ -1,0 +1,91 @@
+[{
+  "_id": "producto_001",
+  "nombre": "coca-cola personal",
+  "tipo": "bevida",
+  "precio_cop": 2500,
+  "stock": 22
+},
+{
+  "_id": "producto_002",
+  "nombre": "coca-cola cero personal",
+  "tipo": "bevida",
+  "precio_cop": 2700,
+  "stock": 33
+},
+{
+  "_id": "producto_003",
+  "nombre": " pepsi personal",
+  "tipo": "bevida",
+  "precio_cop": 2200,
+  "stock": 18
+},
+{
+  "_id": "producto_004",
+  "nombre": "paquete trident 18 unidades",
+  "tipo": "chicle",
+  "precio_cop": 2000,
+  "stock": 24
+},
+{
+  "_id": "producto_005",
+  "nombre": "bubbaloo unidad",
+  "tipo": "chicle",
+  "precio_cop": 500,
+  "stock": 254
+},
+{
+  "_id": "producto_007",
+  "nombre": "paquete tumix 2 unidades",
+  "tipo": "chicle",
+  "precio_cop": 200,
+  "stock": 350
+},
+{
+  "_id": "producto_008",
+  "nombre": "yet unidad",
+  "tipo": "chocolatina",
+  "precio_cop": 1200,
+  "stock": 150
+},
+{
+  "_id": "producto_009",
+  "nombre": "jumbo unidad",
+  "tipo": "chocolatina",
+  "precio_cop": 800,
+  "stock": 210
+},
+{
+  "_id": "producto_010",
+  "nombre": "papas margarita mayonesa",
+  "tipo": "paquete",
+  "precio_cop": 2400,
+  "stock": 50
+},
+{
+  "_id": "producto_011",
+  "nombre": "papas margarita pollo",
+  "tipo": "paquete",
+  "precio_cop": 2400,
+  "stock": 70
+},
+{
+  "_id": "producto_012",
+  "nombre": "de todito",
+  "tipo": "paquete",
+  "precio_cop": 3500,
+  "stock": 40
+},
+{
+  "_id": "producto_013",
+  "nombre": "sandwich de pollo",
+  "tipo": "fresco",
+  "precio_cop": 4000,
+  "stock": 15
+},
+{
+  "_id": "producto_014",
+  "nombre": "sandwich de carne",
+  "tipo": "fresco",
+  "precio_cop": 4000,
+  "stock": 0
+}]

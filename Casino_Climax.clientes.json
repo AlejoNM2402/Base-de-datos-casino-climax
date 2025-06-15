@@ -1,0 +1,260 @@
+[{
+  "_id": "cliente_001",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_002",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_003",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_004",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_005",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_006",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_007",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_008",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_009",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+},
+{
+  "_id": "cliente_010",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "documento_id": "123456789",
+  "fecha_nacimiento": "1985-06-20",
+  "telefono": "+57 3001234567",
+  "correo": "juan.perez@email.com",
+  "nivel_id": "nivel_010",
+  "historial_juego": [
+    {
+      "fecha": "2025-06-10T20:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 50000,
+      "resultado": "ganó",
+      "ganancia": 150000
+    },
+    {
+      "fecha": "2025-06-11T21:00:00Z",
+      "juego_id": "juego_001",
+      "monto_apostado": 20000,
+      "resultado": "perdió",
+      "ganancia": 0
+    }
+  ]
+}]

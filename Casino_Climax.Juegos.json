@@ -1,0 +1,165 @@
+[{
+  "_id": "juego_001",
+  "nombre": "poker mesa 1",
+  "tipo": "cartas",
+  "nivel": "VIP",
+  "capacidad_maxima_personas": 5,
+  "limites_apuestas_cop": [
+    {
+      "minima": 2000000,
+      "maxima": 100000000
+    }
+  ],
+  "estado_actual": "en mantenimeinto",
+  "reponsable_id": "empleado_001"
+},
+{
+  "_id": "juego_002",
+  "nombre": "poker mesa 2",
+  "tipo": "cartas",
+  "nivel": "basico",
+  "capacidad_maxima_personas": 10,
+  "limites_apuestas_cop": [
+    {
+      "minima": 20000,
+      "maxima": 1000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_002"
+},
+{
+  "_id": "juego_003",
+  "nombre": "blackjack mesa 1",
+  "tipo": "cartas",
+  "nivel": "gold",
+  "capacidad_maxima_personas": 4,
+  "limites_apuestas_cop": [
+    {
+      "minima": 40000,
+      "maxima": 20000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_003"
+},
+{
+  "_id": "juego_004",
+  "nombre": "blackjack mesa 2",
+  "tipo": "cartas",
+  "nivel": "silver",
+  "capacidad_maxima_personas": 4,
+  "limites_apuestas_cop": [
+    {
+      "minima": 20000,
+      "maxima": 10000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_004"
+},
+{
+  "_id": "juego_005",
+  "nombre": "baccarat mesa 1",
+  "tipo": "cartas",
+  "nivel": "platinum",
+  "capacidad_maxima_personas": 12,
+  "limites_apuestas_cop": [
+    {
+      "minima": 50000,
+      "maxima": 100000000
+    }
+  ],
+  "estado_actual": "en mantenimiento",
+  "reponsable_id": "empleado_005"
+},
+{
+  "_id": "juego_006",
+  "nombre": "baccarat mesa 2",
+  "tipo": "cartas",
+  "nivel": "High Roller",
+  "capacidad_maxima_personas": 14,
+  "limites_apuestas_cop": [
+    {
+      "minima": 200000,
+      "maxima": 300000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_006"
+},
+{
+  "_id": "juego_007",
+  "nombre": "Immortal Romance",
+  "tipo": "maquina traga monedas",
+  "nivel": "membresia anual",
+  "capacidad_maxima_personas": 1,
+  "limites_apuestas_cop": [
+    {
+      "minima": 200,
+      "maxima": 10000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_007"
+},
+{
+  "_id": "juego_008",
+  "nombre": "Starburst",
+  "tipo": "maquina traga monedas",
+  "nivel": "membresia anual",
+  "capacidad_maxima_personas": 1,
+  "limites_apuestas_cop": [
+    {
+      "minima": 200,
+      "maxima": 20000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_008"
+},
+{
+  "_id": "juego_009",
+  "nombre": "ruleta americana",
+  "tipo": "ruleta",
+  "nivel": "diamond",
+  "capacidad_maxima_personas": 5,
+  "limites_apuestas_cop": [
+    {
+      "minima": 500,
+      "maxima": 20000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_009"
+},
+{
+  "_id": "juego_010",
+  "nombre": "ruleta europea",
+  "tipo": "ruleta",
+  "nivel": "titanium",
+  "capacidad_maxima_personas": 4,
+  "limites_apuestas_cop": [
+    {
+      "minima": 10000,
+      "maxima": 100000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_010"
+},
+{
+  "_id": "juego_011",
+  "nombre": "horse racing",
+  "tipo": "maquina traga monedas",
+  "nivel": "elite",
+  "capacidad_maxima_personas": 5,
+  "limites_apuestas_cop": [
+    {
+      "minima": 5000,
+      "maxima": 10000000
+    }
+  ],
+  "estado_actual": "disponible",
+  "reponsable_id": "empleado_011"
+}]

@@ -1,0 +1,374 @@
+[{
+  "_id": "empleado_001",
+  "nombre": "Jose",
+  "apellido": "Borrero",
+  "numero_telefonico": 3124357893,
+  "cargo": "dealer",
+  "id_juego_asignado": "juego_001",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_002",
+  "nombre": "Juan",
+  "apellido": "Romero",
+  "numero_telefonico": 3126673882,
+  "cargo": "dealer",
+  "id_juego_asignado": "juego_002",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_003",
+  "nombre": "Alejandro",
+  "apellido": "Naranjo",
+  "numero_telefonico": 3124256850,
+  "cargo": "dealer",
+  "id_juego_asignado": "juego_003",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_004",
+  "nombre": "Felipe",
+  "apellido": "Medina",
+  "numero_telefonico": 3114567738,
+  "cargo": "dealer",
+  "id_juego_asignado": "juego_004",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_005",
+  "nombre": "Jhaider",
+  "apellido": "Parra",
+  "numero_telefonico": 3124782867,
+  "cargo": "dealer",
+  "id_juego_asignado": "juego_005",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_006",
+  "nombre": "Fredy",
+  "apellido": "Patiño",
+  "numero_telefonico": 3908274567,
+  "cargo": "dealer",
+  "id_juego_asignado": "juego_006",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_007",
+  "nombre": "Roberto",
+  "apellido": "Carlos",
+  "numero_telefonico": 3672567289,
+  "cargo": "mantenimiento",
+  "id_juego_asignado": "juego_007",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_008",
+  "nombre": "Ruben",
+  "apellido": "Blades",
+  "numero_telefonico": 3452331278,
+  "cargo": "mantenimiento",
+  "id_juego_asignado": "juego_008",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_009",
+  "nombre": "Jesus",
+  "apellido": "Rojas",
+  "numero_telefonico": 3214567389,
+  "cargo": "mantenimiento",
+  "id_juego_asignado": "juego_009",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_010",
+  "nombre": "Felipe",
+  "apellido": "Daza",
+  "numero_telefonico": 3452337892,
+  "cargo": "mantenimiento",
+  "id_juego_asignado": "juego_010",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+},
+{
+  "_id": "empleado_011",
+  "nombre": "Diomedes",
+  "apellido": "Diaz",
+  "numero_telefonico": 3206712354,
+  "cargo": "mantenimiento",
+  "id_juego_asignado": "juego_011",
+  "horario": {
+    "lunes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "martes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "miércoles": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "jueves": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "viernes": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    },
+    "sabado": {
+      "entrada": "14:00",
+      "salida": "23:30"
+    }
+  }
+}]
