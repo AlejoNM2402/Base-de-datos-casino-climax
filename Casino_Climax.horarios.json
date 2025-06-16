@@ -1,0 +1,38 @@
+[
+    {
+    "_id": "horario_001",
+    "dia": "lunes",
+    "hora_apertura": "14:00",
+    "hora_cierre": "23:30"
+},
+{
+    "_id": "horario_002",
+    "dia": "martes",
+    "hora_apertura": "14:00",
+    "hora_cierre": "23:30"
+},
+{
+    "_id": "horario_003",
+    "dia": "miércoles",
+    "hora_apertura": "14:00",
+    "hora_cierre": "23:30"
+},
+{
+    "_id": "horario_004",
+    "dia": "jueves",
+    "hora_apertura": "14:00",
+    "hora_cierre": "23:30"
+},
+{
+    "_id": "horario_005",
+    "dia": "viernes",
+    "hora_apertura": "14:00",
+    "hora_cierre": "23:30"
+},
+{
+    "_id": "horario_006",
+    "dia": "sábado",
+    "hora_apertura": "14:00",
+    "hora_cierre": "23:30"
+}
+]

@@ -1,139 +1,139 @@
 [
   {
-    "id": "cliente_001",
+    "_id": "cliente_001",
     "nombre": "Lucía",
     "apellido": "Gómez",
     "documento": "12345678A",
     "edad": 28,
-    "telefono": "+34 600123456",
+    "telefono": "600123456",
     "nivel_id": "nivel_001",
-    "correo": "lucia.gomez@email.com",
+    "correo": "lucia.gomez@gmail.com",
     "historial_juego": [
       {"juego_id": "jueg0_001", "apuesta": 50, "resultado": "ganó", "ganancia": 120},
       {"juego_id": "jueg0_002", "apuesta": 30, "resultado": "perdió", "ganancia": 0}
     ]
   },
   {
-    "id": "cliente_002",
+    "_id": "cliente_002",
     "nombre": "Carlos",
     "apellido": "Martínez",
     "documento": "87654321B",
     "edad": 35,
-    "telefono": "+34 600654321",
+    "telefono": "600654321",
     "nivel_id": "nivel_002",
-    "correo": "carlos.martinez@email.com",
+    "correo": "carlos.martinez@yahoo.com",
     "historial_juego": [
       {"juego_id": "jueg0_003", "apuesta": 100, "resultado": "ganó", "ganancia": 250},
       {"juego_id": "jueg0_001", "apuesta": 20, "resultado": "perdió", "ganancia": 0}
     ]
   },
   {
-    "id": "cliente_003",
+    "_id": "cliente_003",
     "nombre": "Ana",
     "apellido": "López",
-    "documento": "11223344C",
+    "documento": "11223344",
     "edad": 42,
-    "telefono": "+34 600112233",
+    "telefono": "600112233",
     "nivel_id": "nivel_003",
-    "correo": "ana.lopez@email.com",
+    "correo": "ana.lopez@hotmail.com",
     "historial_juego": [
       {"juego_id": "jueg0_004", "apuesta": 75, "resultado": "perdió", "ganancia": 0},
       {"juego_id": "jueg0_003", "apuesta": 40, "resultado": "ganó", "ganancia": 90}
     ]
   },
   {
-    "id": "cliente_004",
+    "_id": "cliente_004",
     "nombre": "Miguel",
     "apellido": "Sánchez",
     "documento": "44332211D",
     "edad": 30,
-    "telefono": "+34 600443322",
+    "telefono": "600443322",
     "nivel_id": "nivel_004",
-    "correo": "miguel.sanchez@email.com",
+    "correo": "miguel.sanchez@yahoo.com",
     "historial_juego": [
       {"juego_id": "jueg0_005", "apuesta": 60, "resultado": "ganó", "ganancia": 140},
       {"juego_id": "jueg0_004", "apuesta": 50, "resultado": "perdió", "ganancia": 0}
     ]
   },
   {
-    "id": "cliente_005",
+    "_id": "cliente_005",
     "nombre": "Sofía",
     "apellido": "Ramírez",
-    "documento": "55667788E",
+    "documento": "55667788",
     "edad": 18,
-    "telefono": "+34 600556677",
+    "telefono": "600556677",
     "nivel_id": "nivel_005",
-    "correo": "sofia.ramirez@email.com",
+    "correo": "sofia.ramirez@gmail.com",
     "historial_juego": [
       {"juego_id": "jueg0_006", "apuesta": 35, "resultado": "ganó", "ganancia": 80},
       {"juego_id": "jueg0_005", "apuesta": 25, "resultado": "perdió", "ganancia": 0}
     ]
   },
   {
-    "id": "cliente_006",
+    "_id": "cliente_006",
     "nombre": "Javier",
     "apellido": "Torres",
     "documento": "99887766F",
     "edad": 38,
-    "telefono": "+34 600998877",
+    "telefono": "600998877",
     "nivel_id": "nivel_006",
-    "correo": "javier.torres@email.com",
+    "correo": "javier.torres@gmail.com",
     "historial_juego": [
       {"juego_id": "jueg0_007", "apuesta": 80, "resultado": "ganó", "ganancia": 200},
       {"juego_id": "jueg0_006", "apuesta": 45, "resultado": "perdió", "ganancia": 0}
     ]
   },
   {
-    "id": "cliente_007",
+    "_id": "cliente_007",
     "nombre": "Elena",
     "apellido": "Morales",
-    "documento": "33445566G",
+    "documento": "33445566",
     "edad": 20,
-    "telefono": "+34 600334455",
+    "telefono": "600334455",
     "nivel_id": "nivel_007",
-    "correo": "elena.morales@email.com",
+    "correo": "elena.morales@hotmail.com",
     "historial_juego": [
       {"juego_id": "jueg0_008", "apuesta": 60, "resultado": "perdió", "ganancia": 0},
       {"juego_id": "jueg0_007", "apuesta": 70, "resultado": "ganó", "ganancia": 180}
     ]
   },
   {
-    "id": "cliente_008",
+    "_id": "cliente_008",
     "nombre": "Pedro",
     "apellido": "Vega",
     "documento": "22113344H",
     "edad": 29,
-    "telefono": "+34 600221133",
+    "telefono": "600221133",
     "nivel_id": "nivel_008",
-    "correo": "pedro.vega@email.com",
+    "correo": "pedro.vega@yahoo.com",
     "historial_juego": [
       {"juego_id": "jueg0_009", "apuesta": 55, "resultado": "perdió", "ganancia": 0},
       {"juego_id": "jueg0_008", "apuesta": 65, "resultado": "ganó", "ganancia": 150}
     ]
   },
   {
-    "id": "cliente_009",
+    "_id": "cliente_009",
     "nombre": "María",
     "apellido": "Navarro",
     "documento": "66778899I",
     "edad": 33,
-    "telefono": "+34 600667788",
+    "telefono": "600667788",
     "nivel_id": "nivel_009",
-    "correo": "maria.navarro@email.com",
+    "correo": "maria.navarro@gmail.com",
     "historial_juego": [
       {"juego_id": "juego_010", "apuesta": 90, "resultado": "ganó", "ganancia": 210},
       {"juego_id": "juego_011", "apuesta": 20, "resultado": "perdió", "ganancia": 0}
     ]
   },
   {
-    "id": "cliente_010",
+    "_id": "cliente_010",
     "nombre": "Diego",
     "apellido": "Castro",
-    "documento": "44556677J",
+    "documento": "44556677",
     "edad": 22,
-    "telefono": "+34 600445566",
+    "telefono": "600445566",
     "nivel_id": "nivel_010",
-    "correo": "diego.castro@email.com",
+    "correo": "diego.castro@gmail.com",
     "historial_juego": [
       {"juego_id": "juego_008", "apuesta": 120, "resultado": "perdió", "ganancia": 0},
       {"juego_id": "juego_011", "apuesta": 30, "resultado": "ganó", "ganancia": 70}
