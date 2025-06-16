@@ -7,7 +7,7 @@
       "anual": 500000
     }
   ],
-  "id_juegos_disponibles": "juego_002"
+    "id_juegos_disponibles": ["jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_002",
@@ -18,7 +18,7 @@
       "anual": 700000
     }
   ],
-  "id_juegos_disponibles": "juego_004"
+    "id_juegos_disponibles": ["jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_003",
@@ -29,7 +29,7 @@
       "anual": 800000
     }
   ],
-  "id_juegos_disponibles": "juego_003"
+    "id_juegos_disponibles": ["jueg0_004", "jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_004",
@@ -40,7 +40,7 @@
       "anual": 1000000
     }
   ],
-  "id_juegos_disponibles": "juego_005"
+    "id_juegos_disponibles": ["jueg0_005", "jueg0_004", "jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_005",
@@ -51,7 +51,7 @@
       "anual": 1100000
     }
   ],
-  "id_juegos_disponibles": "juego_010"
+    "id_juegos_disponibles": ["jueg0_006", "jueg0_005", "jueg0_004", "jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_006",
@@ -62,7 +62,7 @@
       "anual": 1200000
     }
   ],
-  "id_juegos_disponibles": "juego_009"
+    "id_juegos_disponibles": ["jueg0_007", "jueg0_006", "jueg0_005", "jueg0_004", "jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_007",
@@ -73,7 +73,7 @@
       "anual": 1300000
     }
   ],
-  "id_juegos_disponibles": "juego_011"
+    "id_juegos_disponibles": ["jueg0_008", "jueg0_007", "jueg0_006", "jueg0_005", "jueg0_004", "jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_008",
@@ -84,7 +84,7 @@
       "anual": 2000000
     }
   ],
-  "id_juegos_disponibles": "juego_001"
+    "id_juegos_disponibles": ["jueg0_009", "jueg0_008", "jueg0_007", "jueg0_006", "jueg0_005", "jueg0_004", "jueg0_003", "jueg0_001", "jueg0_002"]
 },
 {
   "_id": "nivel_009",
@@ -95,7 +95,7 @@
       "anual": 5000000
     }
   ],
-  "id_juegos_disponibles": "juego_006"
+    "id_juegos_disponibles": ["juego_011","juego_010", "juego_009", "juego_008", "juego_007", "juego_006", "juego_005", "juego_004", "juego_003", "juego_001", "juego_002"]
 },
 {
   "_id": "nivel_010",
@@ -106,8 +106,6 @@
       "anual": 400000
     }
   ],
-  "id_juegos_disponibles": [
-    "juego_007",
-    "juego_008"
-  ]
+  "id_juegos_disponibles": ["juego_008", "juego_007", "juego_011"]
+
 }]
