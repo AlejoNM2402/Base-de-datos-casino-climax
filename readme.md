@@ -179,6 +179,22 @@ Cada archivo `.json` contiene documentos de ejemplo para poblar la base de datos
 
 ---
 
+## ⬇️ Importacion de archivos json a mongo:
+Puedes clonar el repositorio para obtener todos los archivos que hay en el mismo, luego entras a mongo compass, creas una base de datos desde la mongosh escribiendo algo por así por ejemplo:
+
+```js
+use.Casino_Climax
+```
+Luedo de que la crees y ya estes en ella creas una colección desde la mongosh asi por ejemplo:
+
+```js
+db.createCollection("clientes")
+```
+
+Ya teniendo creada la coleccion te situas en ella dando click en su nombre que aparece en el panel izquierdo de mongo de y te aparecerá un botón verde que dice "import data", buscas los archivos clonados del repositorio, importas el que necesitas en la coleccion que creaste y repites con el resto de colecciones.
+
+---
+
 ### 🍃Consulta 1:
 
 ```js
