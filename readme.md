@@ -273,11 +273,200 @@ Muestra todos los clientes cuyos emails esten con un formato incorrecto, muy uti
 ### 🍃Consulta 9:
 
 ```js
-db.clientes.find({
-  correo: { $not: { $regex: /^[^\s@]+@[^\s@]+\.[^\s@]+$/ } }
-})
+db.clientes.find({ 
+    correo: { $regex: "\\.(ru|cn)$" } })
+
 ```
-Muestra todos los clientes cuyos emails esten con un formato incorrecto, muy util para tener esto en cuenta y actualizar los datos de la mejor menara posible.
+Muestra todos los clientes cuyos emails tengan dominios poco comunes para detectar posibles fraudes o spam.
+
+### 🍃Consulta 10:
+
+```js
+db.clientes.find({ 
+    documento: { $not: { $regex: "^\\d{8}[A-Z]$" } } })
+
+```
+Muestra todos los clientes cuyos documentos no cumplen las con los parametros de un documento valido, esto sirve para detectar fraudes o ingresos incorrectos en este campo.
+
+### 🍃Consulta 11:
+
+```js
+db.clientes.find({ 
+    correo: { $regex: "(_|\\.\\.)" } })
+
+```
+Muestra todos los clientes cuyos correos tienen guiones bajos (_), o multiples puntos para evitar cuentas con correos falsos o sospechosos.
+
+### 🍃Consulta 11:
+
+```js
+db.clientes.find({ 
+    "historial_juego.resultado": { $regex: "ganó" } })
+
+
+```
+Muestra todos los clientes que hayan ganado almenos una vez en su historial de apuestas, ideal para identificar las ganancias de los clientes y y cuando fueron.
+
+### 🍃Consulta 12:
+
+```js
+db.juegos.find({ 
+    tipo: { $regex: "ruleta", $options: "i" } })
+
+
+```
+Muestra todos los juegos que sean de tipo ruleta, esto es util para clasificar y filtrar juegos por tipo y consultarlos facilmente.
+
+### 🍃Consulta 13:
+
+```js
+db.empleados.find({ 
+    nombre: { $regex: "^J", $options: "i" } })
+
+
+```
+Muestra todos los empleados cuyo nombre comienza por "J", para facilitar busquedas rapidas.
+
+### 🍃Consulta 14:
+
+```js
+db.empleados.find({ 
+    numero_telefonico: { $regex: "^\\d{1,9}$" } })
+
+
+```
+Muestra todos los empleados cuyo numero telefonico tiene menos de 10 dijitos, sirve para identificar errores en el ingreso de datos.
+
+### 🍃Consulta 15:
+
+```js
+db.niveles.find({ 
+    _id: { $not: { $regex: "^nivel_\\d{3}$" } } })
+
+
+```
+Muestra todos los niveles cuyo id no sigue el formato establecido, sirve para poder asegurar que todos los niveles siguen el mismo formato de id.
+
+### 🍃Consulta 16:
+
+```js
+db.niveles.find({ 
+    _id: { $regex: "[13579]$" } })
+
+
+```
+Muestra todos los niveles cuyo id impar, sirve para segmentar los niveles por id y facilitar la busqueda.
+
+### 🍃Consulta 17:
+
+```js
+db.niveles.find({ 
+    nombre: { $regex: "\\s" } })
+
+
+```
+Muestra todos los niveles que contienen mas de una paabra en su nombre, ideal para filtrar de una manera muy cencilla.
+
+### 🍃Consulta 18:
+
+```js
+db.niveles.find({ 
+    "costo.0.mensual": { $not: { $mod: [1000, 0] } } })
+
+
+```
+Muestra todos los niveles cuyo costo mensual no sea multiplo de 1000, para asegurar que todos tengan valores redondos.
+
+### 🍃Consulta 19:
+
+```js
+db.niveles.find({
+  $expr: {
+    $eq: [
+      { $arrayElemAt: ["$costo.anual", 0] },
+      { $multiply: [{ $arrayElemAt: ["$costo.mensual", 0] }, 10] }
+    ]
+  }
+})
+
+
+```
+Muestra todos los niveles cuyo costo anual es 10 su costo mensual, para mantener todos los costos anueles en torno a la misma politica de precios.
+
+### 🍃Consulta 20:
+
+```js
+db.niveles.find({ 
+    costo: { $exists: false } })
+
+
+```
+Muestra todos los niveles cuyo costo esta nulo, para detectar documentos de niveles incompletos y dar pronta solucion al problema.
+
+### 🍃Consulta 21:
+
+```js
+db.niveles.find({ 
+    "id_juegos_disponibles.5": { $exists: true } })
+
+
+```
+Muestra todos los niveles que tengan disponibles mas de 5 juegos, esto con el fin de filtrarlos en torno a su generocidad con el cliente y ajustar los precios segun lo que se ofrece si es que se necesita.
+
+### 🍃Consulta 22:
+
+```js
+db.niveles.find({ 
+    "id_juegos_disponibles.5": { $exists: true } })
+
+
+```
+Muestra todos los niveles que tengan disponibles juegos con numeros impares, esto con el fin de facilitar su filtracion y busqueda efectiva.
+
+### 🍃Consulta 23:
+
+```js
+db.niveles.find({ 
+    id_juegos_disponibles: { $size: 0 } })
+
+
+```
+Muestra todos los niveles que no tengan juegos disponibles con el fin de encontrar y solucionar errores cometidos en la creacion de los documentos de esta coleccion.
+
+### 🍃Consulta 24:
+
+```js
+db.niveles.find({ 
+    id_juegos_disponibles: { $in: ["juego_001"] } })
+
+
+```
+Muestra todos los niveles que contengan un juego especifico por id, con el fin de que tan comun o popular es el juego.
+
+### 🍃Consulta 25:
+
+```js
+db.niveles.find({ 
+    id_juegos_disponibles: { $elemMatch: { $regex: "[A-Z]" } } })
+
+```
+Muestra todos los niveles que id de juegos con mayusculas (errores), con el fin de corregir errores de insercion de datos.
+
+
+##### Gracias por tu leer :)
+
+### Integrantes:
+- Alejandro Naranjo Marin
+- Daniel Felipe Trigos Sarmiento
+
+
+
+
+
+
+
+
+
 
 
 
